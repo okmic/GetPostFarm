@@ -1,0 +1,91 @@
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes glitch {
+  0%, 100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-2px, 1px);
+  }
+  40% {
+    transform: translate(-1px, -2px);
+  }
+  60% {
+    transform: translate(2px, 1px);
+  }
+  80% {
+    transform: translate(1px, -1px);
+  }
+}
+
+@keyframes glitch-text {
+  0%, 100% {
+    transform: skew(0deg);
+    opacity: 1;
+  }
+  10% {
+    transform: skew(1deg);
+  }
+  20% {
+    transform: skew(-1deg);
+  }
+  30% {
+    transform: skew(0.5deg);
+  }
+  40% {
+    transform: skew(-0.5deg);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit-delayed {
+  from {
+    transform: rotate(120deg) translateX(35px) rotate(-120deg);
+  }
+  to {
+    transform: rotate(480deg) translateX(35px) rotate(-480deg);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glitch {
+  animation: glitch 0.2s ease-in-out;
+}
+
+.animate-glitch-text {
+  animation: glitch-text 0.2s ease-in-out;
+}
+
+.animate-orbit {
+  animation: orbit 8s linear infinite;
+}
+
+.animate-orbit-delayed {
+  animation: orbit-delayed 10s linear infinite;
+}
+
+/* Адаптив для мобильных устройств */
+@media (max-width: 640px) {
+  .animate-orbit, .animate-orbit-delayed {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+@keyframes grow {
+    0% {
+        transform: scaleY(0.3);
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: scaleY(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleY(0.3);
+        opacity: 0.3;
+    }
+}
+
+.animate-grow {
+    animation: grow 2.5s ease-in-out infinite;
+}
