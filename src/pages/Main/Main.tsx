@@ -192,7 +192,7 @@ export default function MainPage() {
               className="inline-flex items-center justify-center gap-2 px-5 sm:px-8 py-2.5 sm:py-3.5 rounded-xl bg-gradient-to-r from-[#4CAF50] to-[#FFA726] text-white font-medium text-sm sm:text-base active:scale-[0.98]"
             >
               <FaChartLine className="text-sm" />
-              Открыть admin.postfarm.ru
+              Открыть admin.postfarm.art
               <FaArrowRight className="text-sm" />
             </a>
           </div>
@@ -207,7 +207,7 @@ export default function MainPage() {
           </div>
           <div className="flex items-center gap-3 sm:gap-4 text-[9px] sm:text-[11px] text-white/15">
             <a href="mailto:miconext@yandex.ru" className="hover:text-white/30 transition-colors">miconext@yandex.ru</a>
-            <a href="https://admin.postfarm.art" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">admin.postfarm.ru</a>
+            <a href="https://admin.postfarm.art" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">admin.postfarm.art</a>
           </div>
         </div>
       </footer>
