@@ -31,7 +31,7 @@ export default function MainPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
-              href="https://admin.postfarm.ru"
+              href="https://admin.postfarm.art"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl bg-gradient-to-r from-[#4CAF50] to-[#FFA726] text-white font-medium text-sm sm:text-base transition-colors active:scale-[0.98]"
@@ -186,7 +186,7 @@ export default function MainPage() {
               Управляйте каналами, отслеживайте статистику и синхронизируйте контент через удобную админ-панель.
             </p>
             <a
-              href="https://admin.postfarm.ru"
+              href="https://admin.postfarm.art"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-5 sm:px-8 py-2.5 sm:py-3.5 rounded-xl bg-gradient-to-r from-[#4CAF50] to-[#FFA726] text-white font-medium text-sm sm:text-base active:scale-[0.98]"
@@ -207,7 +207,7 @@ export default function MainPage() {
           </div>
           <div className="flex items-center gap-3 sm:gap-4 text-[9px] sm:text-[11px] text-white/15">
             <a href="mailto:miconext@yandex.ru" className="hover:text-white/30 transition-colors">miconext@yandex.ru</a>
-            <a href="https://admin.postfarm.ru" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">admin.postfarm.ru</a>
+            <a href="https://admin.postfarm.art" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">admin.postfarm.ru</a>
           </div>
         </div>
       </footer>
